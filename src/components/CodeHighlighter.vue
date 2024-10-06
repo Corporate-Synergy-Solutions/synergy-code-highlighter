@@ -21,6 +21,8 @@ import 'prismjs/components/prism-python.js'
 import 'prismjs/components/prism-rust.js'
 import 'prismjs/components/prism-ruby.js'
 import 'prismjs/components/prism-sql.js'
+import 'prismjs/components/prism-markdown.js'
+import 'prismjs/components/prism-json.js'
 
 onMounted(() => {
   window.Prism = window.Prism || {}
@@ -39,24 +41,31 @@ defineProps({
 .default {
   @import 'prismjs/themes/prism';
 }
+
 .coy {
   @import 'prismjs/themes/prism-coy';
 }
+
 .dark {
   @import 'prismjs/themes/prism-dark';
 }
+
 .funky {
   @import 'prismjs/themes/prism-funky';
 }
+
 .okaidia {
   @import 'prismjs/themes/prism-okaidia';
 }
+
 .solarizedlight {
   @import 'prismjs/themes/prism-solarizedlight';
 }
+
 .tomorrow {
   @import 'prismjs/themes/prism-tomorrow';
 }
+
 .twilight {
   @import 'prismjs/themes/prism-twilight';
 }

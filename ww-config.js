@@ -32,6 +32,8 @@ export default {
                     { value: 'javascript', label: { en: 'JavaScript' } },
                     { value: 'html', label: { en: 'HTML' } },
                     { value: 'sql', label: { en: 'Sql' } },
+                    { value: 'json', label: { en: 'JSON' } },
+                    { value: 'markdown', label: { en: 'Markdown' } },
                 ],
             },
             defaultValue: 'java',
