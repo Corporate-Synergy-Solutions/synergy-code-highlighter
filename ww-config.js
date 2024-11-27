@@ -1,7 +1,7 @@
 export default {
     editor: {
         label: {
-            en: 'Code highlighter',
+            en: 'Synergy Code Highlighter',
         },
     },
     properties: {
